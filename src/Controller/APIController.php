@@ -44,6 +44,6 @@ class APIController extends AbstractController
                 break;
         }
 
-        return $return ?? new Response('Ok');
+        return $return ?? new Response('ok');
     }
 }
